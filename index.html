@@ -1,307 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Reliable, fast, and professional plumbing services near you. Expert leak repair, drain cleaning, and geyser installation with same-day service. Call now!">
-    <title>Reliable Plumbing Services | Fast & Professional Plumber</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Favicon (Fallback to emoji for simplicity if no file, but let's just make it clean) -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Drain Doctor — Fast, reliable plumbing in Gauteng, South Africa. Qualified plumber with 15+ years experience. Available 24/7 for emergencies. COC certified." />
+  <meta name="keywords" content="plumber Gauteng, drain cleaning Gauteng, emergency plumber, geyser installation, leak repair, COC certification, plumbing Johannesburg" />
+  <meta property="og:title" content="Drain Doctor | Premium Plumbing Services in Gauteng" />
+  <meta property="og:description" content="Qualified plumber with 15+ years experience. Available 24/7 for emergencies across Gauteng." />
+  <meta property="og:type" content="website" />
+  <title>Drain Doctor | Premium Plumbing Services in Gauteng</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <!-- Top Bar / Header -->
-    <header class="main-header">
-        <div class="container">
-            <div class="logo">
-                <i data-lucide="droplet" class="logo-icon"></i>
-                <span class="logo-text">Rayjul<span class="logo-sub">Plumbing</span></span>
-            </div>
-            <nav class="nav-links">
-                <a href="#services">Services</a>
-                <a href="#why-choose-us">Why Us</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <div class="header-cta">
-                <a href="tel:+27736812533" class="btn-call-outline">
-                    <i data-lucide="phone"></i> Call Now
-                </a>
-            </div>
-            <button class="mobile-menu-btn" aria-label="Toggle Menu">
-                <i data-lucide="menu"></i>
-            </button>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-overlay"></div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="badge">
-                    <i data-lucide="check-circle-2"></i> Same-day Service Available
-                </div>
-                <h1>Reliable Plumbing Services Near You</h1>
-                <p class="subheadline">Fast, affordable, and professional plumbing solutions. From leaks to geysers — we handle everything.</p>
-                
-                <div class="hero-ctas">
-                    <a href="tel:+27736812533" class="btn-call">
-                        <i data-lucide="phone-call" class="pulse"></i> Call Now
-                    </a>
-                    <a href="https://wa.me/27736812533?text=Hi%20I%20need%20plumbing%20service" class="btn-whatsapp">
-                        <i data-lucide="message-circle"></i> WhatsApp Now
-                    </a>
-                </div>
-
-                <div class="trust-lines">
-                    <div class="trust-item">
-                        <i data-lucide="clock"></i>
-                        <span>Fast Response</span>
-                    </div>
-                    <div class="trust-item">
-                        <i data-lucide="award"></i>
-                        <span>Experienced Plumber</span>
-                    </div>
-                    <div class="trust-item">
-                        <i data-lucide="shield-check"></i>
-                        <span>Trusted Guarantee</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-title">
-                <span class="section-badge">How We Can Help</span>
-                <h2>Our Plumbing Services</h2>
-                <p>We handle all types of residential and commercial plumbing work with precision.</p>
-            </div>
-
-            <div class="services-grid">
-                <!-- Card 1 -->
-                <div class="service-card">
-                    <div class="service-icon-wrapper">
-                        <i data-lucide="wrench"></i>
-                    </div>
-                    <h3>Leak Repair</h3>
-                    <p>Fixing pipe bursts, dripping taps, and hidden leaks to save water and damage.</p>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="service-card">
-                    <div class="service-icon-wrapper">
-                        <i data-lucide="arrow-down-to-dot"></i>
-                    </div>
-                    <h3>Blocked Drain Cleaning</h3>
-                    <p>Fast clearing of blocked sinks, toilets, and sewer lines with expert equipment.</p>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="service-card">
-                    <div class="service-icon-wrapper">
-                        <i data-lucide="flame"></i>
-                    </div>
-                    <h3>Geyser Installation & Repair</h3>
-                    <p>Expert water heater setups, thermostat repairs, and heating element fixes.</p>
-                </div>
-
-                <!-- Card 4 -->
-                <div class="service-card">
-                    <div class="service-icon-wrapper">
-                        <i data-lucide="pipette"></i>
-                    </div>
-                    <h3>Pipe Installation</h3>
-                    <p>New pipe layouts, copper piping, and complete re-piping for buildings.</p>
-                </div>
-
-                <!-- Card 5 -->
-                <div class="service-card">
-                    <div class="service-icon-wrapper">
-                        <i data-lucide="bath"></i>
-                    </div>
-                    <h3>Toilet & Tap Repair</h3>
-                    <p>Replacing flush mechanisms, fixing leaks, and upgrading basin taps efficiently.</p>
-                </div>
-
-                <!-- Card 6 -->
-                <div class="service-card">
-                    <div class="service-icon-wrapper">
-                        <i data-lucide="life-buoy"></i>
-                    </div>
-                    <h3>Emergency Plumbing</h3>
-                    <p>Available for urgent situations to prevent major water damage and restoring peace.</p>
-                </div>
-            </div>
-            
-            <p class="services-footer-text">We handle all types of residential and commercial plumbing work.</p>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-us" id="why-choose-us">
-        <div class="container flex-container">
-            <div class="why-image">
-                <img src="assets/images/plumber_cta.png" alt="Professional Plumber Working" loading="lazy">
-                <div class="experience-badge">
-                    <span class="exp-num">10+</span>
-                    <span class="exp-text">Years Experience</span>
-                </div>
-            </div>
-            <div class="why-content">
-                <span class="section-badge">Standard of Excellence</span>
-                <h2>Why Customers Choose Us</h2>
-                <p>We pride ourselves on providing top-tier service that you can rely on, every single time.</p>
-                
-                <ul class="why-list">
-                    <li>
-                        <div class="list-icon"><i data-lucide="check"></i></div>
-                        <div>
-                            <h4>Fast Response Time</h4>
-                            <p>We arrive on time, ready to solve your plumbing issues immediately.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-icon"><i data-lucide="check"></i></div>
-                        <div>
-                            <h4>Affordable Pricing</h4>
-                            <p>Transparent rates with zero hidden costs. Great value always.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-icon"><i data-lucide="check"></i></div>
-                        <div>
-                            <h4>Professional Work</h4>
-                            <p>Quality crafts with attention to every single detail of the fix.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="list-icon"><i data-lucide="check"></i></div>
-                        <div>
-                            <h4>Trusted Local Service</h4>
-                            <p>We care about our community and build long-term trust.</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- High Urgency CTA -->
-    <section class="cta-banner">
-        <div class="container">
-            <div class="cta-inner">
-                <h2>Need a Plumber Today?</h2>
-                <p>Don’t wait — small issues can turn into big problems. Call now and get fast help.</p>
-                
-                <div class="cta-buttons">
-                    <a href="tel:+27736812533" class="btn-call-alt">
-                        <i data-lucide="phone"></i> Call Now
-                    </a>
-                    <a href="https://wa.me/27736812533?text=Hi%20I%20need%20plumbing%20service.Can%20you%20help?" class="btn-whatsapp-alt">
-                        <i data-lucide="message-circle"></i> WhatsApp Now
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Info Section (Hours & Contact) -->
-    <section class="info-section" id="contact">
-        <div class="container info-grid">
-            <!-- Opening Hours -->
-            <div class="info-card hours-card">
-                <h3><i data-lucide="calendar"></i> Opening Hours</h3>
-                <ul class="hours-list">
-                    <li><span>Mon – Thu:</span> <span>06:00 – 23:00</span></li>
-                    <li><span>Fri:</span> <span>06:00 – 16:00</span></li>
-                    <li><span>Sat:</span> <span class="closed">Closed</span></li>
-                    <li><span>Sun:</span> <span>06:00 – 23:00</span></li>
-                </ul>
-                <p class="hours-note">Fast response during working hours</p>
-            </div>
-
-            <!-- Contact Card -->
-            <div class="info-card contact-card">
-                <h3><i data-lucide="phone"></i> Contact Us</h3>
-                <p class="contact-sub">Available for queries and plumbing support.</p>
-                
-                <div class="contact-item">
-                    <span class="contact-label">Phone & WhatsApp:</span>
-                    <a href="tel:+27736812533" class="contact-main">+27 73 681 2533</a>
-                </div>
-
-                <div class="contact-ctas">
-                    <a href="tel:+27736812533" class="btn-call">
-                        <i data-lucide="phone"></i> Call Now
-                    </a>
-                    <a href="https://wa.me/27736812533?text=Hi,%20I%20need%20plumbing%20service.%20Can%20you%20help?" class="btn-whatsapp">
-                        <i data-lucide="message-circle"></i> WhatsApp Chat
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <div class="logo">
-                    <i data-lucide="droplet" class="logo-icon"></i>
-                    <span class="logo-text">Rayjul<span class="logo-sub">Plumbing</span></span>
-                </div>
-                <p>Providing premium plumbing solutions to our local community with trust and excellence.</p>
-            </div>
-            
-            <div class="footer-links">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="#services">Leak Repair</a></li>
-                    <li><a href="#services">Drain Cleaning</a></li>
-                    <li><a href="#services">Geysers</a></li>
-                    <li><a href="#services">Emergency</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#why-choose-us">Why Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Rayjul Plumbing. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Floating Action Buttons for Mobile -->
-    <div class="floating-ctas">
-        <a href="tel:+27736812533" class="float-call" aria-label="Call Now">
-            <i data-lucide="phone"></i>
-        </a>
-        <a href="https://wa.me/27736812533?text=Hi%20I%20need%20plumbing%20service" class="float-whatsapp" aria-label="WhatsApp Now">
-            <i data-lucide="message-circle"></i>
-        </a>
+  <!-- ========== NAVIGATION ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#hero" class="logo" id="logo-link">
+        <span class="logo-icon">💧</span>
+        <span class="logo-text">Drain <strong>Doctor</strong></span>
+      </a>
+      <nav class="nav-links" id="nav-links">
+        <a href="#services" class="nav-link" id="nav-services">Services</a>
+        <a href="#about" class="nav-link" id="nav-about">About</a>
+        <a href="#why-us" class="nav-link" id="nav-why">Why Us</a>
+        <a href="#contact" class="nav-link" id="nav-contact">Contact</a>
+        <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="nav-cta" id="nav-whatsapp" target="_blank" rel="noopener">Get Help Now</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </header>
 
-    <!-- Scripts -->
-    <script src="script.js"></script>
-    <script>
-        // Initialize Lucide Icons
-        lucide.createIcons();
-    </script>
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav" id="mobile-nav">
+    <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">✕</button>
+    <a href="#services" class="mobile-nav-link" id="mob-services">Services</a>
+    <a href="#about" class="mobile-nav-link" id="mob-about">About</a>
+    <a href="#why-us" class="mobile-nav-link" id="mob-why">Why Us</a>
+    <a href="#contact" class="mobile-nav-link" id="mob-contact">Contact</a>
+    <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="mobile-nav-cta" id="mob-whatsapp" target="_blank" rel="noopener">💬 Chat on WhatsApp</a>
+  </div>
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-slides">
+        <div class="hero-slide active">
+          <img src="assets/banner_drain_cleaning.png" alt="High-end drain cleaning service" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_leak_repair.png" alt="Advanced leak repair service" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_geyser_install.png" alt="Premium geyser installation" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_emergency_van.png" alt="24/7 emergency plumbing service" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_plumber_portrait.png" alt="Our professional head plumber" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_coc_v3.png" alt="Certified COC plumbing compliance" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_commercial_v2.png" alt="Commercial plumbing solutions" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_precision_tools_v2.png" alt="Quality precision plumbing tools" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_gauteng_skyline_v2.png" alt="Proudly serving all of Gauteng" />
+        </div>
+        <div class="hero-slide">
+          <img src="assets/banner_satisfied_customer.png" alt="Satisfied customer handshake" />
+        </div>
+      </div>
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container hero-content" data-animate="fade-up">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        Available 24/7 • Gauteng Province
+      </div>
+      <h1 class="hero-headline" id="hero-headline">
+        Fast, Reliable Plumbing<br />in Gauteng —<br class="br-mobile" />
+        <span class="hero-accent">Done Right the First Time</span>
+      </h1>
+      <p class="hero-sub" id="hero-sub">
+        Qualified plumber with 15+ years experience.<br />
+        Available 24/7 for emergencies across all of Gauteng.
+      </p>
+      <div class="hero-ctas" id="hero-ctas">
+        <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="btn btn-primary btn-lg" id="hero-whatsapp" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Get Help on WhatsApp
+        </a>
+        <a href="#services" class="btn btn-outline btn-lg" id="hero-services-btn">
+          View Services
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="trust-badges" id="trust-badges">
+        <div class="trust-badge"><span class="trust-check">✔</span> Qualified Plumber</div>
+        <div class="trust-badge"><span class="trust-check">✔</span> COC Certified</div>
+        <div class="trust-badge"><span class="trust-check">✔</span> 15+ Years Experience</div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" id="hero-scroll">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== PROBLEM → SOLUTION ========== -->
+  <section class="problem-section" id="problem">
+    <div class="container">
+      <div class="problem-grid" data-animate="fade-up">
+        <div class="problem-left">
+          <div class="section-tag">The Problem</div>
+          <h2 class="problem-headline">Plumbing problems don't wait — <em>and neither should you.</em></h2>
+          <p class="problem-intro">Every minute counts when it comes to plumbing emergencies. Ignoring them costs more in the long run.</p>
+          <ul class="problem-list" id="problem-list">
+            <li class="problem-item">
+              <span class="problem-icon">💧</span>
+              <div>
+                <strong>Burst Pipes</strong>
+                <p>Causing flooding, structural damage, and massive water bills.</p>
+              </div>
+            </li>
+            <li class="problem-item">
+              <span class="problem-icon">🚿</span>
+              <div>
+                <strong>Blocked Drains</strong>
+                <p>Slow drains that back up and create health hazards.</p>
+              </div>
+            </li>
+            <li class="problem-item">
+              <span class="problem-icon">🔥</span>
+              <div>
+                <strong>Geyser Issues</strong>
+                <p>No hot water, pressure problems, or geyser failure.</p>
+              </div>
+            </li>
+            <li class="problem-item">
+              <span class="problem-icon">⚠️</span>
+              <div>
+                <strong>Emergency Leaks</strong>
+                <p>Hidden leaks damaging walls, ceilings, and foundations.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="problem-right">
+          <div class="solution-card" id="solution-card">
+            <div class="solution-icon-wrap">
+              <svg class="solution-icon" viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="30" fill="url(#sol-grad)" opacity="0.15"/>
+                <path d="M20 32l8 8 16-16" stroke="#00C2A8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <defs>
+                  <linearGradient id="sol-grad" x1="0" y1="0" x2="64" y2="64">
+                    <stop offset="0%" stop-color="#0A2540"/>
+                    <stop offset="100%" stop-color="#00C2A8"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <h3 class="solution-title">We Fix It Fast, Professionally & Affordably</h3>
+            <p class="solution-desc">From emergency call-outs to planned installations — Drain Doctor handles it all with precision and care, guaranteed.</p>
+            <div class="solution-stats">
+              <div class="stat-item">
+                <span class="stat-num">15+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">24/7</span>
+                <span class="stat-label">Emergency Service</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-num">100%</span>
+                <span class="stat-label">Satisfaction</span>
+              </div>
+            </div>
+            <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="btn btn-primary" target="_blank" rel="noopener" id="solution-cta">Book a Plumber Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Our <span class="text-accent">Services</span></h2>
+        <p class="section-subtitle">Comprehensive plumbing solutions for homes and businesses across Gauteng</p>
+      </div>
+      <div class="services-grid" id="services-grid">
+        <div class="service-card" data-animate="fade-up" id="service-drain">
+          <div class="service-icon-wrap">
+            <img src="assets/Drain%20Cleaning.png" alt="Drain Cleaning" class="service-img" />
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-name">Drain Cleaning</h3>
+            <p class="service-desc">Fast, effective clearing of blocked drains — no mess, no fuss.</p>
+            <div class="service-line"></div>
+            <a href="https://wa.me/27000000000?text=Hi%2C%20I%20need%20drain%20cleaning" class="service-link" target="_blank" rel="noopener">Get a Quote →</a>
+          </div>
+        </div>
+
+        <div class="service-card featured" data-animate="fade-up" id="service-leak">
+          <div class="service-icon-wrap">
+            <img src="assets/Leak%20Repair.png" alt="Leak Repair" class="service-img" />
+          </div>
+          <div class="service-card-content">
+            <div class="service-featured-tag">Most Requested</div>
+            <h3 class="service-name">Leak Repair</h3>
+            <p class="service-desc">Locate and fix leaks before they become costly disasters.</p>
+            <div class="service-line"></div>
+            <a href="https://wa.me/27000000000?text=Hi%2C%20I%20have%20a%20leak" class="service-link" target="_blank" rel="noopener">Get a Quote →</a>
+          </div>
+        </div>
+
+        <div class="service-card" data-animate="fade-up" id="service-geyser">
+          <div class="service-icon-wrap">
+            <img src="assets/Geyser%20Installation.png" alt="Geyser Installation" class="service-img" />
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-name">Geyser Installation</h3>
+            <p class="service-desc">Safe, certified geyser installs and replacements done right.</p>
+            <div class="service-line"></div>
+            <a href="https://wa.me/27000000000?text=Hi%2C%20I%20need%20geyser%20installation" class="service-link" target="_blank" rel="noopener">Get a Quote →</a>
+          </div>
+        </div>
+
+        <div class="service-card" data-animate="fade-up" id="service-coc">
+          <div class="service-icon-wrap">
+            <img src="assets/COC%20Certification.png" alt="COC Certification" class="service-img" />
+          </div>
+          <div class="service-card-content">
+            <h3 class="service-name">COC Certification</h3>
+            <p class="service-desc">Official compliance certificates for property sales and insurance.</p>
+            <div class="service-line"></div>
+            <a href="https://wa.me/27000000000?text=Hi%2C%20I%20need%20COC%20certification" class="service-link" target="_blank" rel="noopener">Get a Quote →</a>
+          </div>
+        </div>
+
+        <div class="service-card" data-animate="fade-up" id="service-emergency">
+          <div class="service-icon-wrap">
+            <img src="assets/Emergency%20Plumbing.png" alt="Emergency Plumbing" class="service-img" />
+          </div>
+          <div class="service-card-content">
+            <div class="emergency-badge">24/7</div>
+            <h3 class="service-name">Emergency Plumbing</h3>
+            <p class="service-desc">Round-the-clock response for urgent plumbing crises.</p>
+            <div class="service-line"></div>
+            <a href="https://wa.me/27000000000?text=EMERGENCY%3A%20I%20need%20urgent%20plumbing%20help" class="service-link" target="_blank" rel="noopener">Call Now →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT / TRUST ========== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid" data-animate="fade-up">
+        <div class="about-image-col">
+          <div class="about-image-wrap" id="about-img-wrap">
+            <img src="assets/about-plumber.png" alt="Experienced Drain Doctor plumber in Gauteng" class="about-img" id="about-img" onerror="this.parentElement.classList.add('no-img')" />
+            <div class="about-img-fallback">
+              <div class="about-img-icon">🔧</div>
+              <p>15+ Years<br/>of Expertise</p>
+            </div>
+            <div class="about-badge-float" id="about-badge-float">
+              <span class="about-badge-icon">🏆</span>
+              <div>
+                <strong>Fully Certified</strong>
+                <span>COC Qualified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content-col">
+          <div class="section-tag">About Us</div>
+          <h2 class="about-headline">15+ Years of Hands-On Experience <span class="text-accent">You Can Trust</span></h2>
+          <p class="about-body">We've been solving Gauteng's toughest plumbing problems since the early 2000s. From simple tap repairs to complex geyser systems — Drain Doctor brings professional skill and local knowledge to every job.</p>
+          <ul class="about-points" id="about-points">
+            <li class="about-point">
+              <div class="about-check">✔</div>
+              <div>
+                <strong>Qualified & Certified Plumber</strong>
+                <p>Fully trained and registered trade professional</p>
+              </div>
+            </li>
+            <li class="about-point">
+              <div class="about-check">✔</div>
+              <div>
+                <strong>COC Available</strong>
+                <p>Official compliance certificates issued on completion</p>
+              </div>
+            </li>
+            <li class="about-point">
+              <div class="about-check">✔</div>
+              <div>
+                <strong>Serving All of Gauteng</strong>
+                <p>Johannesburg, Pretoria, Ekurhuleni and surrounding areas</p>
+              </div>
+            </li>
+            <li class="about-point">
+              <div class="about-check">✔</div>
+              <div>
+                <strong>Fast Response Time</strong>
+                <p>We show up on time, every time — no waiting around</p>
+              </div>
+            </li>
+          </ul>
+          <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20quote" class="btn btn-primary" id="about-cta" target="_blank" rel="noopener">
+            Get a Free Quote
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <div class="section-tag">Why Drain Doctor?</div>
+        <h2 class="section-title">What Sets Us <span class="text-accent">Apart</span></h2>
+        <p class="section-subtitle">Your peace of mind is our priority — every single job</p>
+      </div>
+      <div class="why-grid" id="why-grid">
+        <div class="why-card" data-animate="fade-up" id="why-fast">
+          <div class="why-img-wrap">
+            <img src="assets/Fast%20Response.png" alt="Fast response plumbing Gauteng" class="why-img" />
+          </div>
+          <div class="why-card-content">
+            <h3 class="why-title">Fast Response</h3>
+            <p class="why-desc">Emergency calls answered within the hour. We know time matters when pipes burst.</p>
+          </div>
+        </div>
+        <div class="why-card" data-animate="fade-up" id="why-affordable">
+          <div class="why-img-wrap">
+            <img src="assets/Affordable pricing.png" alt="Affordable plumbing Gauteng" class="why-img" />
+          </div>
+          <div class="why-card-content">
+            <h3 class="why-title">Affordable Pricing</h3>
+            <p class="why-desc">Transparent, fair pricing with no hidden fees. You get a quote before we start.</p>
+          </div>
+        </div>
+        <div class="why-card" data-animate="fade-up" id="why-pro">
+          <div class="why-img-wrap">
+            <img src="assets/Professional work.png" alt="Professional plumbing work Gauteng" class="why-img" />
+          </div>
+          <div class="why-card-content">
+            <h3 class="why-title">Professional Work</h3>
+            <p class="why-desc">Every job done to the highest standard — neat, clean, and built to last.</p>
+          </div>
+        </div>
+        <div class="why-card" data-animate="fade-up" id="why-trusted">
+          <div class="why-img-wrap">
+            <img src="assets/Trusted%20by%20locals.png" alt="Trusted local plumber Gauteng" class="why-img" />
+          </div>
+          <div class="why-card-content">
+            <h3 class="why-title">Trusted by Locals</h3>
+            <p class="why-desc">Hundreds of satisfied Gauteng homeowners and businesses — their trust means everything.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STRONG CTA ========== -->
+  <section class="cta-section" id="cta">
+    <div class="cta-bg"></div>
+    <div class="container cta-inner" data-animate="fade-up">
+      <div class="cta-tag">Available Right Now</div>
+      <h2 class="cta-headline">Need a plumber <em>right now?</em></h2>
+      <p class="cta-sub">We're available 24/7 across all of Gauteng Province.<br />One message is all it takes.</p>
+      <a href="https://wa.me/27000000000?text=URGENT%3A%20I%20need%20a%20plumber%20now" class="btn btn-white btn-xl" id="cta-whatsapp" target="_blank" rel="noopener">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        👉 Chat on WhatsApp Now
+      </a>
+      <div class="cta-trust">
+        <span>✔ No call-out fee quoted upfront</span>
+        <span>✔ Licensed & insured</span>
+        <span>✔ Serving all Gauteng</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE AREA ========== -->
+  <section class="area-section" id="area">
+    <div class="container">
+      <div class="area-inner" data-animate="fade-up">
+        <div class="section-tag">Where We Work</div>
+        <h2 class="area-headline">We proudly serve all areas in <span class="text-accent">Gauteng Province</span></h2>
+        <div class="area-tags" id="area-tags">
+          <span class="area-tag">Johannesburg</span>
+          <span class="area-tag">Pretoria</span>
+          <span class="area-tag">Ekurhuleni</span>
+          <span class="area-tag">Soweto</span>
+          <span class="area-tag">Sandton</span>
+          <span class="area-tag">Midrand</span>
+          <span class="area-tag">Centurion</span>
+          <span class="area-tag">Randburg</span>
+          <span class="area-tag">Roodepoort</span>
+          <span class="area-tag">Boksburg</span>
+          <span class="area-tag">Benoni</span>
+          <span class="area-tag">East Rand</span>
+          <span class="area-tag">West Rand</span>
+          <span class="area-tag">And more...</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Contact <span class="text-accent">Drain Doctor</span></h2>
+        <p class="section-subtitle">Reach us instantly — we respond fast, every time</p>
+      </div>
+      <div class="contact-grid" data-animate="fade-up">
+        <div class="contact-info-col">
+          <div class="contact-card" id="contact-phone-card">
+            <div class="contact-card-icon">📞</div>
+            <div class="contact-card-body">
+              <h3>Call Us Directly</h3>
+              <p>Speak to a qualified plumber immediately</p>
+              <a href="tel:+27000000000" class="contact-link" id="contact-phone">+27 000 000 000</a>
+            </div>
+          </div>
+          <div class="contact-card" id="contact-wa-card">
+            <div class="contact-card-icon">💬</div>
+            <div class="contact-card-body">
+              <h3>WhatsApp Us</h3>
+              <p>Send a message for instant assistance</p>
+              <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="contact-link contact-link-wa" id="contact-wa" target="_blank" rel="noopener">Open WhatsApp Chat</a>
+            </div>
+          </div>
+          <div class="contact-card" id="contact-area-card">
+            <div class="contact-card-icon">📍</div>
+            <div class="contact-card-body">
+              <h3>Service Area</h3>
+              <p>Based in Gauteng Province</p>
+              <span class="contact-link">All Gauteng Areas Covered</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-col">
+          <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+            <h3 class="form-title">Request a Callback</h3>
+            <p class="form-subtitle">Tell us your issue and we'll get back to you fast</p>
+            <div class="form-group" id="form-name-group">
+              <label for="form-name">Your Name</label>
+              <input type="text" id="form-name" name="name" placeholder="e.g. Sipho Ndlovu" required />
+            </div>
+            <div class="form-group" id="form-phone-group">
+              <label for="form-phone">Phone Number</label>
+              <input type="tel" id="form-phone" name="phone" placeholder="e.g. 082 000 0000" required />
+            </div>
+            <div class="form-group" id="form-issue-group">
+              <label for="form-issue">What's the Issue?</label>
+              <select id="form-issue" name="issue" required>
+                <option value="" disabled selected>Select your issue</option>
+                <option value="blocked-drain">Blocked Drain</option>
+                <option value="burst-pipe">Burst Pipe</option>
+                <option value="leak">Water Leak</option>
+                <option value="geyser">Geyser Problem</option>
+                <option value="coc">COC Certificate</option>
+                <option value="emergency">Emergency</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit" id="form-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Send via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <span class="logo-icon">💧</span>
+            <span class="logo-text">Drain <strong>Doctor</strong></span>
+          </div>
+          <p class="footer-tagline">Fast, reliable plumbing across Gauteng Province — available 24/7.</p>
+          <div class="footer-available">
+            <span class="available-dot"></span>
+            Available 24/7 for Emergencies
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services" id="footer-drain">Drain Cleaning</a></li>
+            <li><a href="#services" id="footer-leak">Leak Repair</a></li>
+            <li><a href="#services" id="footer-geyser">Geyser Installation</a></li>
+            <li><a href="#services" id="footer-coc">COC Certification</a></li>
+            <li><a href="#services" id="footer-emergency">Emergency Plumbing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#hero" id="footer-home">Home</a></li>
+            <li><a href="#about" id="footer-about">About Us</a></li>
+            <li><a href="#why-us" id="footer-why">Why Us</a></li>
+            <li><a href="#area" id="footer-area">Service Areas</a></li>
+            <li><a href="#contact" id="footer-contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <a href="tel:+27000000000" class="footer-contact-item" id="footer-phone">
+            <span>📞</span> +27 000 000 000
+          </a>
+          <a href="https://wa.me/27000000000" class="footer-contact-item" id="footer-whatsapp" target="_blank" rel="noopener">
+            <span>💬</span> WhatsApp Us
+          </a>
+          <a href="#area" class="footer-contact-item" id="footer-location">
+            <span>📍</span> Gauteng Province, ZA
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Drain Doctor. All rights reserved. | Gauteng, South Africa</p>
+        <p class="footer-legal">Licensed & COC Certified Plumbing Services</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== FLOATING WHATSAPP ========== -->
+  <a href="https://wa.me/27000000000?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="whatsapp-float" id="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" class="wa-icon">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="wa-label">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
