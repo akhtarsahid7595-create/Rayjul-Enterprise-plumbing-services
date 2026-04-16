@@ -526,60 +526,83 @@ h1, h2, h3, h4 {
   animation: fadeUp 0.9s 0.55s ease both;
 }
 
-.trust-badges {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  animation: fadeUp 0.9s 0.7s ease both;
-}
-
-.trust-badge {
-  display: flex;
+.trust-bar {
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  background: rgba(255,255,255,.08);
-  border: 1px solid rgba(255,255,255,.15);
-  backdrop-filter: blur(8px);
-  color: rgba(255,255,255,.9);
-  font-size: 0.875rem;
-  font-weight: 500;
-  padding: 8px 16px;
+  gap: 0;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 12px 24px;
   border-radius: 100px;
+  animation: fadeUp 0.9s 0.7s ease both;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition);
 }
 
-.trust-check {
-  color: var(--accent);
-  font-weight: 700;
+.trust-bar:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
 }
 
-.hero-scroll-hint {
+.trust-bar::after {
+  content: '';
   position: absolute;
-  bottom: 36px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.05),
+    transparent
+  );
+  animation: shimmer 5s infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  20%, 100% { left: 100%; }
+}
+
+.trust-item {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  color: rgba(255,255,255,.5);
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
-  animation: fadeUp 1s 1s ease both;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: trustFadeIn 0.8s forwards;
 }
 
-.scroll-arrow {
+.trust-item:nth-child(1) { animation-delay: 0.8s; }
+.trust-item:nth-child(3) { animation-delay: 1s; }
+.trust-item:nth-child(5) { animation-delay: 1.2s; }
+
+@keyframes trustFadeIn {
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.trust-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--accent);
+  filter: drop-shadow(0 0 5px rgba(0,194,168,0.3));
+}
+
+.trust-divider {
   width: 1px;
-  height: 40px;
-  background: linear-gradient(to bottom, rgba(255,255,255,.5), transparent);
-  animation: scrollLine 2s infinite;
-}
-
-@keyframes scrollLine {
-  0%   { transform: scaleY(0); transform-origin: top; }
-  50%  { transform: scaleY(1); transform-origin: top; }
-  50.01% { transform: scaleY(1); transform-origin: bottom; }
-  100% { transform: scaleY(0); transform-origin: bottom; }
+  height: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 0 20px;
 }
 
 /* ---------- PROBLEM SECTION ---------- */
@@ -1577,12 +1600,16 @@ h1, h2, h3, h4 {
   .nav-links { display: none; }
   .hamburger { display: flex; }
 
-  .hero-content { max-width: 100%; padding-top: 100px; padding-bottom: 60px; }
+  .hero-content { max-width: 100%; padding-top: 140px; padding-bottom: 60px; }
+  .hero-badge { margin-bottom: 20px; font-size: 0.75rem; padding: 6px 14px; }
+  .hero-headline { font-size: 2.1rem; line-height: 1.2; margin-bottom: 18px; }
+  .hero-sub { font-size: 0.9375rem; margin-bottom: 28px; line-height: 1.6; }
   .br-mobile { display: block; }
-  .hero-ctas { flex-direction: column; }
-  .hero-ctas .btn { width: 100%; justify-content: center; }
-  .trust-badges { gap: 8px; }
-  .trust-badge { font-size: 0.8125rem; padding: 7px 13px; }
+  .hero-ctas { flex-direction: column; gap: 12px; margin-bottom: 40px; }
+  .hero-ctas .btn { width: 100%; justify-content: center; padding: 14px 24px; }
+  .trust-bar { flex-direction: column; gap: 12px; border-radius: 20px; padding: 18px; width: 100%; }
+  .trust-divider { width: 40px; height: 1px; margin: 0 auto; }
+  .trust-item { font-size: 0.85rem; width: 100%; justify-content: center; }
 
   .problem-section,
   .services-section,
@@ -1613,12 +1640,15 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 480px) {
-  .container { padding: 0 18px; }
+  .container { padding: 0 16px; }
+  .hero-content { padding-top: 130px; text-align: center; }
+  .hero-headline { font-size: 1.85rem; }
+  .trust-bar { justify-content: center; border-radius: 16px; }
   .why-grid { grid-template-columns: 1fr; }
   .solution-card { padding: 32px 24px; }
   .about-badge-float { position: static; margin-top: 20px; }
   .wa-label { display: none; }
-  .whatsapp-float { width: 56px; height: 56px; padding: 0; justify-content: center; border-radius: 50%; }
+  .whatsapp-float { width: 56px; height: 56px; padding: 0; justify-content: center; border-radius: 50%; bottom: 16px; right: 16px; }
 }
 
 /* ---------- GLASSMORPHISM UTILITY ---------- */
