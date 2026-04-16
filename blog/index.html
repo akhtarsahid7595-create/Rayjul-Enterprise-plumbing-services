@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plumbing Guides & Tips for Gauteng Homeowners | Drain Doctor Blog</title>
+  <meta name="description" content="Free plumbing guides for South African homeowners — plumber costs, geyser replacement, blocked drains, COC certificates, and emergency tips for Gauteng. Written by Drain Doctor, PIRB-certified plumber." />
+  <meta name="keywords" content="plumbing blog South Africa, plumber tips Gauteng, geyser cost South Africa, blocked drain advice Johannesburg, COC certificate guide, emergency plumber Gauteng advice" />
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="ZA-GP" />
+  <link rel="canonical" href="https://draindoctorgauteng.co.za/blog/" />
+  <meta property="og:title" content="Plumbing Guides for Gauteng Homeowners | Drain Doctor Blog" />
+  <meta property="og:description" content="Expert plumbing advice for South African homeowners — from geyser costs to COC certificates and emergency plumbing tips." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_ZA" />
+  <meta property="og:site_name" content="Drain Doctor Gauteng" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Drain Doctor Gauteng Plumbing Blog",
+    "description": "Expert plumbing guides for South African homeowners — covering plumber costs, geyser replacement, COC certificates, blocked drains, and emergency plumbing.",
+    "url": "https://draindoctorgauteng.co.za/blog/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Drain Doctor Gauteng",
+      "url": "https://draindoctorgauteng.co.za"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://draindoctorgauteng.co.za/"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://draindoctorgauteng.co.za/blog/"}
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" type="image/png" href="../assets/logo.png" />
+
+  <style>
+    /* Blog index page specific styles */
+    .blog-hero {
+      background: linear-gradient(135deg, var(--primary) 0%, #0e3260 100%);
+      padding: 140px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .blog-hero::before {
+      content: '';
+      position: absolute;
+      top: -100px; right: -100px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(0,194,168,.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .blog-hero-inner { position: relative; z-index: 1; max-width: 680px; }
+    .blog-hero-tag {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(0,194,168,.15); border: 1px solid rgba(0,194,168,.35);
+      color: var(--accent-light, #00e5cc); font-size: 0.8rem; font-weight: 600;
+      padding: 6px 16px; border-radius: 100px; margin-bottom: 20px;
+    }
+    .blog-hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      color: #fff; margin-bottom: 16px; line-height: 1.2; letter-spacing: -0.03em;
+    }
+    .blog-hero h1 span { color: var(--accent); }
+    .blog-hero p { font-size: 1.1rem; color: rgba(255,255,255,.75); line-height: 1.7; }
+
+    .blog-index-section { padding: 80px 0 100px; }
+
+    .blog-index-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 28px;
+      margin-top: 48px;
+    }
+
+    .blog-index-card-img {
+      width: 100%;
+      height: 180px;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+    .blog-index-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .blog-index-card:hover .blog-index-card-img img {
+      transform: scale(1.05);
+    }
+    .blog-index-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-md);
+      border-color: rgba(0,194,168,.25);
+    }
+
+    .blog-index-card-tag {
+      display: inline-block;
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 4px 12px; border-radius: 100px;
+      background: rgba(0,194,168,.1); color: #009d88;
+      width: fit-content;
+    }
+    .tag-emergency { background: rgba(220,38,38,.06); color: #b91c1c; }
+    .tag-cost { background: rgba(59,130,246,.08); color: #1d4ed8; }
+    .tag-legal { background: rgba(124,58,237,.08); color: #6d28d9; }
+
+    .blog-index-card h2 {
+      font-size: 1.1rem; font-weight: 700; line-height: 1.35; color: var(--primary);
+    }
+    .blog-index-card h2 a {
+      color: inherit; text-decoration: none; transition: color 0.2s;
+    }
+    .blog-index-card h2 a:hover { color: var(--accent); }
+
+    .blog-index-card p {
+      font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; flex: 1;
+    }
+
+    .blog-meta { display: flex; gap: 12px; font-size: 0.8rem; color: var(--text-light, #718096); }
+
+    .blog-cta-link {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 0.875rem; font-weight: 600; color: var(--accent);
+      text-decoration: none; transition: gap 0.2s;
+    }
+    .blog-cta-link:hover { gap: 10px; }
+
+    /* Sidebar CTA */
+    .blog-layout { display: grid; grid-template-columns: 1fr 320px; gap: 40px; align-items: flex-start; }
+    .blog-sidebar {
+      position: sticky; top: 100px;
+      display: flex; flex-direction: column; gap: 20px;
+    }
+    .sidebar-card {
+      background: linear-gradient(135deg, var(--primary), #0e3260);
+      border-radius: 16px; padding: 28px; color: #fff;
+    }
+    .sidebar-card h3 { font-size: 1.2rem; margin-bottom: 10px; color: #fff; }
+    .sidebar-card p { font-size: 0.875rem; color: rgba(255,255,255,.75); margin-bottom: 18px; line-height: 1.6; }
+    .sidebar-btn {
+      display: block; background: var(--accent); color: #fff;
+      text-align: center; padding: 12px 20px; border-radius: 50px;
+      font-weight: 700; font-size: 0.9rem; text-decoration: none;
+    }
+    .sidebar-topics { background: var(--secondary); border-radius: 16px; padding: 24px; }
+    .sidebar-topics h3 { font-size: 1rem; color: var(--primary); margin-bottom: 14px; font-family: var(--font-head); font-weight: 700; }
+    .topic-links { display: flex; flex-direction: column; gap: 8px; }
+    .topic-links a {
+      font-size: 0.875rem; color: var(--primary); text-decoration: none;
+      display: flex; align-items: center; gap: 6px; transition: color 0.2s;
+    }
+    .topic-links a::before { content: "→"; color: var(--accent); font-weight: 700; }
+    .topic-links a:hover { color: var(--accent); }
+
+    @media (max-width: 900px) {
+      .blog-layout { grid-template-columns: 1fr; }
+      .blog-sidebar { position: static; }
+      .blog-index-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .blog-index-grid { grid-template-columns: 1fr; }
+      .blog-hero { padding: 120px 0 60px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar (matching homepage) -->
+  <header class="navbar scrolled" id="navbar">
+    <div class="container navbar-inner">
+      <a href="../index.html" class="logo" id="logo-link">
+        <div class="logo-icon-wrap">
+          <img src="../assets/logo.png" alt="Drain Doctor" class="logo-img">
+        </div>
+        <span class="logo-text">Drain <strong>Doctor</strong></span>
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html#services" class="nav-link">Services</a>
+        <a href="../index.html#about" class="nav-link">About</a>
+        <a href="../index.html#why-us" class="nav-link">Why Us</a>
+        <a href="./" class="nav-link" style="color:var(--accent);">Blog</a>
+        <a href="../index.html#contact" class="nav-link">Contact</a>
+        <a href="https://wa.me/27736812533?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="nav-cta" target="_blank" rel="noopener">Get Help Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Blog Hero -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="blog-hero-inner">
+        <div class="blog-hero-tag">
+          <span>📚</span> Plumbing Guides
+        </div>
+        <h1>South Africa <span>Plumbing Guides</span><br>for Gauteng Homeowners</h1>
+        <p>Expert advice on plumber costs, geyser replacements, blocked drains, COC certificates and emergency plumbing — written by Drain Doctor, your PIRB-certified plumber in Gauteng.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Content + Sidebar -->
+  <section class="blog-index-section">
+    <div class="container">
+
+      <nav aria-label="Breadcrumb" style="font-size:.85rem;color:var(--text-muted);margin-bottom:2rem;">
+        <a href="../index.html" style="color:var(--accent);">Home</a>
+        <span style="margin:0 .4rem;">›</span>
+        Plumbing Blog
+      </nav>
+
+      <div class="blog-layout">
+
+        <!-- Articles grid -->
+        <div>
+          <h2 style="font-size:1.5rem;color:var(--primary);margin-bottom:.5rem;">All Plumbing Guides</h2>
+          <p style="color:var(--text-muted);font-size:.95rem;">Practical, no-nonsense advice for Gauteng homeowners — from <strong>plumber costs</strong> to <strong>emergency response tips</strong>.</p>
+
+          <div class="blog-index-grid">
+
+            <article class="blog-index-card">
+              <div class="blog-index-card-img">
+                <img src="../assets/Affordable%20pricing.png" alt="Plumber costs and pricing in Gauteng South Africa 2025" loading="lazy">
+              </div>
+              <div class="blog-index-card-tag tag-cost">Cost Guide</div>
+              <h2><a href="plumber-cost-gauteng.html">How Much Does a Plumber Cost in Gauteng? (2025 Price Guide)</a></h2>
+              <div class="blog-meta"><span>📅 April 2026</span><span>⏱ 8 min read</span></div>
+              <p>Transparent 2025 pricing for callout fees, hourly rates, drain cleaning, geyser installation, COC certificates and emergency plumbing across Johannesburg and Pretoria.</p>
+              <a href="plumber-cost-gauteng.html" class="blog-cta-link">Read Full Guide →</a>
+            </article>
+
+            <article class="blog-index-card">
+              <div class="blog-index-card-img">
+                <img src="../assets/Leak%20Repair.png" alt="Professional leak detection and repair in Johannesburg Gauteng" loading="lazy">
+              </div>
+              <div class="blog-index-card-tag">Investigation</div>
+              <h2><a href="leak-detection-gauteng.html">Expert Water Leak Detection in Johannesburg &amp; Gauteng — Stop High Water Bills</a></h2>
+              <div class="blog-meta"><span>📅 April 2026</span><span>⏱ 6 min read</span></div>
+              <p>Stop paying for water you aren't using! Learn how we find hidden leaks using acoustic and thermal technology across all Gauteng suburbs.</p>
+              <a href="leak-detection-gauteng.html" class="blog-cta-link">Read Full Guide →</a>
+            </article>
+
+            <article class="blog-index-card">
+              <div class="blog-index-card-img">
+                <img src="../assets/Drain%20Cleaning.png" alt="Blocked drain cleaning service in Johannesburg Gauteng" loading="lazy">
+              </div>
+              <div class="blog-index-card-tag">Drain Cleaning</div>
+              <h2><a href="blocked-drain-johannesburg.html">Blocked Drain in Johannesburg? Causes, DIY Tips &amp; When to Call a Plumber</a></h2>
+              <div class="blog-meta"><span>📅 April 2026</span><span>⏱ 7 min read</span></div>
+              <p>Why drains block in Johannesburg homes (including tree root and clay soil issues), what you can try yourself, and when to call a professional drain plumber in Gauteng.</p>
+              <a href="blocked-drain-johannesburg.html" class="blog-cta-link">Read Full Guide →</a>
+            </article>
+
+            <article class="blog-index-card">
+              <div class="blog-index-card-img">
+                <img src="../assets/Geyser%20Installation.png" alt="Geyser replacement and installation cost South Africa 2025" loading="lazy">
+              </div>
+              <div class="blog-index-card-tag tag-cost">Geyser Guide</div>
+              <h2><a href="geyser-replacement-cost-south-africa.html">Geyser Replacement Cost in South Africa — 2025 Complete Price Guide</a></h2>
+              <div class="blog-meta"><span>📅 April 2026</span><span>⏱ 7 min read</span></div>
+              <p>Compare 2025 prices for standard, solar and instant geysers in South Africa. Includes brand comparison (Kwikot, Ariston, Bosch), repair vs replace guide, and COC costs.</p>
+              <a href="geyser-replacement-cost-south-africa.html" class="blog-cta-link">Read Full Guide →</a>
+            </article>
+
+            <article class="blog-index-card">
+              <div class="blog-index-card-img">
+                <img src="../assets/COC%20Certification.png" alt="Plumbing COC Certificate of Compliance South Africa guide" loading="lazy">
+              </div>
+              <div class="blog-index-card-tag tag-legal">Legal Guide</div>
+              <h2><a href="coc-certificate-south-africa-what-is-it.html">What Is a COC Plumbing Certificate in South Africa?</a></h2>
+              <div class="blog-meta"><span>📅 April 2026</span><span>⏱ 6 min read</span></div>
+              <p>When do you legally need a Certificate of Compliance? Who can issue one? How much does it cost? Everything South African property owners and sellers need to know.</p>
+              <a href="coc-certificate-south-africa-what-is-it.html" class="blog-cta-link">Read Full Guide →</a>
+            </article>
+
+            <article class="blog-index-card">
+              <div class="blog-index-card-img">
+                <img src="../assets/Emergency%20Plumbing.png" alt="24/7 emergency plumber response in Johannesburg Gauteng" loading="lazy">
+              </div>
+              <div class="blog-index-card-tag tag-emergency">🚨 Emergency</div>
+              <h2><a href="emergency-plumber-johannesburg.html">Emergency Plumber in Johannesburg — 24/7 Fast Response Guide</a></h2>
+              <div class="blog-meta"><span>📅 April 2026</span><span>⏱ 5 min read</span></div>
+              <p>What to do in a plumbing emergency — burst pipes, burst geysers, flooding, sewage backup. Step-by-step guide plus Drain Doctor's 24/7 emergency line for all of Gauteng.</p>
+              <a href="emergency-plumber-johannesburg.html" class="blog-cta-link">Read Full Guide →</a>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="blog-sidebar">
+          <div class="sidebar-card">
+            <h3>Need a Plumber Now?</h3>
+            <p>Drain Doctor is available 24/7 across all of Gauteng — Johannesburg, Pretoria, Sandton, Midrand and more.</p>
+            <a href="https://wa.me/27736812533?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="sidebar-btn" target="_blank" rel="noopener">💬 WhatsApp Us Now</a>
+            <div style="text-align:center;margin-top:12px;font-size:.8rem;opacity:.7;">or call <a href="tel:+27736812533" style="color:var(--accent);">+27 73 681 2533</a></div>
+          </div>
+
+          <div class="sidebar-topics">
+            <h3>Browse by Topic</h3>
+            <div class="topic-links">
+              <a href="plumber-cost-gauteng.html">Plumber Costs in Gauteng</a>
+              <a href="blocked-drain-johannesburg.html">Blocked Drains</a>
+              <a href="geyser-replacement-cost-south-africa.html">Geyser Replacement</a>
+              <a href="coc-certificate-south-africa-what-is-it.html">COC Certificates</a>
+              <a href="emergency-plumber-johannesburg.html">Emergency Plumbing</a>
+              <a href="../index.html#faq">FAQ — Plumbing Questions</a>
+              <a href="../index.html#area">Service Areas in Gauteng</a>
+            </div>
+          </div>
+
+          <div style="background:var(--secondary);border-radius:16px;padding:24px;">
+            <h3 style="font-size:1rem;color:var(--primary);margin-bottom:10px;font-family:var(--font-head);font-weight:700;">🏅 Why Choose Drain Doctor?</h3>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;font-size:.85rem;color:var(--text-muted);">
+              <li>✔ PIRB Registered Plumber</li>
+              <li>✔ COC Certified — same day</li>
+              <li>✔ 15+ Years in Gauteng</li>
+              <li>✔ 24/7 Emergency Response</li>
+              <li>✔ Transparent upfront pricing</li>
+            </ul>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="footer-logo">
+            <div class="logo-icon-wrap">
+              <img src="../assets/logo.png" alt="Drain Doctor" class="logo-img">
+            </div>
+            <span class="logo-text">Drain <strong>Doctor</strong></span>
+          </div>
+          <p class="footer-tagline">Fast, reliable plumbing across Gauteng Province — available 24/7.</p>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="../index.html#service-drain">Drain Cleaning</a></li>
+            <li><a href="../index.html#service-leak">Leak Repair</a></li>
+            <li><a href="../index.html#service-geyser">Geyser Installation</a></li>
+            <li><a href="../index.html#service-coc">COC Certification</a></li>
+            <li><a href="../index.html#service-emergency">Emergency Plumbing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">Plumbing Guides</h4>
+          <ul class="footer-links">
+            <li><a href="plumber-cost-gauteng.html">Plumber Costs</a></li>
+            <li><a href="blocked-drain-johannesburg.html">Blocked Drains</a></li>
+            <li><a href="geyser-replacement-cost-south-africa.html">Geyser Replacement</a></li>
+            <li><a href="coc-certificate-south-africa-what-is-it.html">COC Certificates</a></li>
+            <li><a href="emergency-plumber-johannesburg.html">Emergency Plumber</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4 class="footer-col-title">Contact</h4>
+          <a href="tel:+27736812533" class="footer-contact-item">
+            <span>📞</span> +27 73 681 2533
+          </a>
+          <a href="https://wa.me/27736812533" class="footer-contact-item" target="_blank" rel="noopener">
+            <span>💬</span> WhatsApp Us
+          </a>
+          <a href="../index.html#area" class="footer-contact-item">
+            <span>📍</span> Gauteng Province, ZA
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Drain Doctor. All rights reserved. | Plumber in Gauteng, South Africa</p>
+        <p class="footer-legal">PIRB Registered & COC Certified Plumbing Services — Johannesburg | Pretoria | Ekurhuleni | Sandton | Midrand</p>
+        <p class="footer-legal" style="margin-top:.4rem;"><a href="../sitemap.xml" rel="nofollow">Sitemap</a> | <a href="../index.html">Home</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/27736812533?text=Hi%20Drain%20Doctor%2C%20I%20need%20a%20plumber" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" class="wa-icon"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="wa-label">WhatsApp</span>
+  </a>
+
+  <script src="../script.js"></script>
+</body>
+</html>

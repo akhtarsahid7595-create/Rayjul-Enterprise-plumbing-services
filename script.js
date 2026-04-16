@@ -238,5 +238,25 @@
     setInterval(nextSlide, slideInterval);
   }
 
+  /* ---- FAQ Accordion ---- */
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', function () {
+      const item = this.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+
+      // Close all open items
+      document.querySelectorAll('.faq-item.open').forEach(openItem => {
+        openItem.classList.remove('open');
+        openItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+
+      // Open clicked item if it was closed
+      if (!isOpen) {
+        item.classList.add('open');
+        this.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
   console.log('%c💧 Drain Doctor — Premium Website Loaded', 'color:#00C2A8;font-weight:800;font-size:14px;');
 })();
