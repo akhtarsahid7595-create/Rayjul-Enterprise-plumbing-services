@@ -4,89 +4,89 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://draindoctorgauteng.co.za/"/>
+    <xhtml:link rel="alternate" hreflang="en-ZA" href="https://draindoctor.plumbing/"/>
   </url>
 
   <!-- Service sections -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/#services</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/#services</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Blog Index -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/blog/</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 
   <!-- Blog: Plumber Cost -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/plumber-cost-gauteng.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/blog/plumber-cost-gauteng.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog: Leak Detection -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/leak-detection-gauteng.html</loc>
-    <lastmod>2026-04-16</lastmod>
+    <loc>https://draindoctor.plumbing/blog/leak-detection-gauteng.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog: Blocked Drain Johannesburg -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/blocked-drain-johannesburg.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/blog/blocked-drain-johannesburg.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog: Geyser Replacement Cost -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/geyser-replacement-cost-south-africa.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/blog/geyser-replacement-cost-south-africa.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog: COC Certificate South Africa -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/coc-certificate-south-africa-what-is-it.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/blog/coc-certificate-south-africa-what-is-it.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Blog: Emergency Plumber Johannesburg -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/blog/emergency-plumber-johannesburg.html</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/blog/emergency-plumber-johannesburg.html</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Service Areas -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/#area</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/#area</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
 
   <!-- FAQ -->
   <url>
-    <loc>https://draindoctorgauteng.co.za/#faq</loc>
-    <lastmod>2026-04-15</lastmod>
+    <loc>https://draindoctor.plumbing/#faq</loc>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
